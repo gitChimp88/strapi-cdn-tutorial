@@ -10077,7 +10077,7 @@ statuses@2.0.1, statuses@^2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
 
-"strapi-provider-upload-@file:providers/strapi-provider-upload-cdn":
+"strapi-provider-upload-cdn@file:providers/strapi-provider-upload-cdn":
   version "1.0.0"
   dependencies:
     "@aws-sdk/client-s3" "^3.609.0"

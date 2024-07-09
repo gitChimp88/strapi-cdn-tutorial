@@ -1,8 +1,8 @@
-import {
+const {
   S3Client,
   PutObjectCommand,
   DeleteObjectCommand,
-} from "@aws-sdk/client-s3";
+} = require("@aws-sdk/client-s3");
 
 module.exports = {
   init: (config) => {
