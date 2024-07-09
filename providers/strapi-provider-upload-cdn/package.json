@@ -1,8 +1,8 @@
 {
-  "name": "strapi-provider-upload-s3cdn",
+  "name": "strapi-provider-upload-cdn",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "strapi-provider-upload-s3cdn.js",
+  "main": "index.js",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.609.0"
   }

@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   upload: {
     config: {
-      provider: "strapi-provider-upload-s3cdn",
+      provider: "strapi-provider-upload-cdn",
       providerOptions: {
         region: env("AWS_REGION"),
         bucket: env("AWS_BUCKET"),
