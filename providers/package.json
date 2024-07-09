@@ -1,0 +1,9 @@
+{
+  "name": "strapi-provider-upload-s3cdn",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "strapi-provider-upload-s3cdn.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.609.0"
+  }
+}
