@@ -37,16 +37,13 @@ module.exports = {
     };
 
     return {
-      uploadStream(
-        file,
-        customParams = config?.actionOptions?.uploadStream ?? {}
-      ) {
+      uploadStream(file, customParams = {}) {
         return upload(file, customParams);
       },
-      upload(file, customParams = config?.actionOptions?.upload ?? {}) {
+      upload(file, customParams = {}) {
         return upload(file, customParams);
       },
-      delete(file, customParams = config?.actionOptions?.delete ?? {}) {
+      delete(file, customParams = {}) {
         return new Promise((resolve, reject) => {
           const path = file.path ? `${file.path}/` : "";
 
